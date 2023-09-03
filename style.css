@@ -1,0 +1,172 @@
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
+* {
+    font-family: 'ABeeZee', sans-serif;
+}
+.slate{
+    color: darkslategray;
+}
+.fs-xs{
+    font-size: 12px;
+}
+.nav-bar{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 1;
+}
+.hero-sec {
+    height: fit-content;
+}
+.hero-left {
+    margin-top: 80px;
+    margin-left: 40px;
+}
+.bg-img {
+    z-index: -1;
+    position: absolute;
+    top: 300px;
+    left: 530px;
+}
+.madeby {
+    width: 52%;
+    padding-left: 15px;
+    padding-block: 5px;
+}
+.icon {
+    height: 30px;
+    width: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-inline: 5px;
+}
+.cyan {
+    background-color: lightcyan;
+}
+.dew {
+    background: honeydew;
+}
+.silk {
+    background-color: cornsilk;
+}
+.rose {
+    background-color: mistyrose;
+}
+.hero-right {
+    border-radius: 15px;
+}
+.box {
+    background-color: lightgray;
+    width: 80%;
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+.btn {
+    background: linear-gradient(90deg, rgba(55,122,237,1) 0%, rgba(151,55,242,1) 100%);
+    color: white;
+    width: 80%;
+    margin: 10px;
+}
+.hero-right {
+    box-shadow: 0px 0px 35px lightblue ;
+    height:fit-content;
+}
+.course-head-color {
+    background: -webkit-linear-gradient(90deg, rgba(55,122,237,1) 0%, rgba(151,55,242,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.course-sec {
+    background-color: aliceblue;
+    height: 130vh;
+    z-index: 0;
+}
+.card {
+    width: 40%
+}
+.course-div {
+    background-color: aquamarine;
+    color: royalblue;
+    border-radius: 5px;
+    margin: 5px;
+    }
+.caption {
+    width: 50%;
+    border-radius: 5px;
+    position: relative;
+    background-color: dodgerblue;
+    color: white;
+    top: -12px;
+    left: 120px
+}
+.btn1 {
+    color: royalblue;
+    border: 1px solid royalblue;
+    border-radius: 5px;
+    width: 40%;
+    padding: 10px;
+}
+.btn2 {
+    border: none;
+    background-color: royalblue;
+    color: white;
+    border-radius: 5px;
+    width: 40%;
+    padding: 10px;
+}
+.course-div1 {
+    background-color: rgb(255,238,216);
+    color: brown;
+    border-radius: 5px;
+    margin: 5px;
+    }
+    .alumni-cards {
+        width: 30%;
+        height: fit-content;
+        margin: 10px;
+
+    }
+
+    @media screen and (max-width: 768px) {
+        .upper-nav{
+            flex-direction: column;
+            align-items: center;
+        }
+        .nav-menu {
+            flex-direction: column;
+        }
+        .hero-sec {
+            flex-direction: column;
+            height: fit-content;
+        }
+        .bg-img{
+            display: none;
+        }
+        .course-sec {
+            height: fit-content;
+        }
+        .cards {
+            flex-direction: column;
+        }
+        .card {
+            width: 100%;
+            flex-direction: column;
+        }
+       
+        .alumni {
+            flex-direction: column;
+            width: 100%;
+        }
+        .alumni-cards {
+            width: fit-content;
+        }
+    }
+    @media screen and (min-width: 769px) and (max-width: 1300px) {
+        .bg-img{
+            display: none;
+        }
+    }
